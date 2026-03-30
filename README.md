@@ -1,2 +1,2 @@
 # tor-multimodal
-A Multimodal Deep Learning Framework for Tor Entry Node Traffic Identification. 
+A Multimodal Framework for Heterogeneous Traffic Identification at Tor Entry Nodes
