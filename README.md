@@ -10,6 +10,11 @@ This project implements a deep learning framework designed to classify Tor anony
 
 ---
 
+## Dataset
+The dataset (approx. 20GB) contains raw PCAPs for various **Obfuscation Plug-ins** and **Scenarios**.
+
+* **Download Link (Global)**: https://pan.quark.cn/s/9e2feb3785ee
+
 ## Environment Setup
 Ensure you have Python 3.8+ and the required deep learning libraries installed.
 
@@ -29,7 +34,7 @@ Follow the commands in this specific order to process the raw traffic and train 
 
 1. Traffic Preprocessing
 
-The first step converts raw PCAP files into bidirectional flows (Bi-flows):
+The first step converts raw PCAP files into bidirectional flows (Bi-flows)，:
 
 ```bash
 python data/split_pcap_to_Bi-flow.py
